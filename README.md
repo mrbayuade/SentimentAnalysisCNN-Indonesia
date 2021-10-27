@@ -2,7 +2,7 @@
 Given a sample of data in the form of online news from one of the online news sites in Indonesia (CNN Indonesian)
 
 1. Preprocessing data methods:
-- Labeling            : Translator library to translate bahasa to english, then labeling using TextBlob library to find polarity (neutral, negative, and positive                           emotion)
+- Labeling            : <i>Translator library to translate bahasa to english, then labeling using TextBlob library to find polarity (neutral, negative, and positive                           emotion)</i>
                           
 - Case Folding        : Using lower() method
 - Remove Punctuation  : Using ...str.replace('[{}]'.format(string.punctuation), '')
